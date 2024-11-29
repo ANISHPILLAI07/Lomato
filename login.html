@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lomato - Login</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <h1>Lomato</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Restaurants</a></li>
+                <li><a href="login.html">Login</a></li> <!-- Updated Link -->
+                <li><a href="signup.html" class="sign-up-btn">Sign Up</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Login Form Section -->
+    <section class="login-section">
+        <div class="login-box">
+            <h2>Login to Lomato</h2>
+            <form id="loginForm" action="login.php" method="POST">
+                <div class="input-group">
+                    <label for="login-email">Email</label>
+                    <input type="email" id="login-email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="input-group">
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" name="password" placeholder="Enter your password" required>
+                </div>
+                <button type="submit" class="login-btn">Login</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Linking JS for Validation -->
+    <script src="script.js"></script>
+</body>
+</html>
