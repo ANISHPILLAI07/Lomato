@@ -2,9 +2,9 @@
 # Lomato
 
 Lomato is an online food delivery service. The application was mainly created for the population of Lavasa. This includes all the local residents here as well as the students and faculties of Christ University.
+## Files
 
-
-
+In the repository, index.html is homepage, login.html is the login lage, signup.html is the signup page. The respective images and the php files for the project have also been uploaded in the repository.
 ## Navbar section
 
 The navbar section contains 5 buttons. These buttons include the Home, Discover, Restaurents, Login and Signup buttons. The navbar is attractive as well as responsive. Currently the 2 functional buttons in the navbar are the Login and Signup Buttons whic will redirect you to the respective pages.
